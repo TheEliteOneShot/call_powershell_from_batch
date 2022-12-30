@@ -1,6 +1,6 @@
 @ECHO OFF
 SETLOCAL
-REM Parse the input variables seperated by a colon here
+REM Parse the input variables separated by a colon here
 FOR %%A IN (%*) DO (
    FOR /f "tokens=1,2 delims=:" %%G IN ("%%A") DO SET %%G=%%H
 )
