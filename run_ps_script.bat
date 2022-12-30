@@ -14,7 +14,7 @@ ECHO Using OutputFolder:  %OutputFolder%
 ECHO Using #1 Folder:  %Folder1%
 ECHO Using #2 Folder:  %Folder2%
 
-SET _PSScript="C:/Users/Zachary Laney/Desktop/dothis.ps1"
+SET _PSScript="./dothis.ps1"
 
 Powershell -ExecutionPolicy Bypass -Command "& '%_PSScript%' -ExecutableFilePath '%ExecutableFilePath%' -OutputFolder '%OutputFolder%' -Folder1 '%Folder1%' -Folder2 '%Folder2%'
 
